@@ -8,12 +8,12 @@
 }
 @keyframes scrLeft{
     to{
-        margin-right: 300px;
+        margin-right: 400px;
     }
 }
 @keyframes scrRight{
     to{
-        margin-left: 300px;
+        margin-left: 400px;
     }
 }
 
