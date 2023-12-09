@@ -1,0 +1,96 @@
+.info-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 108.33px;
+    width: 1600px;
+    height: 645.163px;
+    background: #F8FAFF;
+}
+
+.info-left-cont{
+    width: 627.73px;
+    margin-left: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text-main{
+    width: 550.434px;
+    color: #223865;
+
+    font-family: stangith;
+    font-size: 70.965px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 0px */
+}
+
+.info-text-disc{
+    margin-top: 24px;
+    width: 517.037px;
+    color: rgba(34, 56, 101, 0.54);
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 20.7px */
+}
+
+.info-more-info-block{
+    margin-top: 49.51px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 80.24px;
+}
+
+.info-more-info-block img {
+    width: 29.5px;
+}
+
+.more-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-text-more-info{
+    margin-top: 9.96px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 16.667px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.disc-text-more-info{
+    margin-top: 9.62px;
+    width: 273.744px;
+    color: rgba(34, 56, 101, 0.54);
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 20.7px */
+}
+
+.link-text-more-info{
+    margin-top: 15.94px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+
+
+.info-right-cont{
+    margin-left: 80.23px;
+}

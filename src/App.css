@@ -1,0 +1,15 @@
+.App{
+  width: 1600px;
+  height: 4544.166px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-bot-abs{
+  margin-top: 446.5px;
+  margin-left: -1400px;
+  position: absolute;
+  width: 203.506px;
+  height: 289.501px;
+}

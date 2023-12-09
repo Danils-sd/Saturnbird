@@ -1,0 +1,28 @@
+.user-bloc-container{
+    margin-top: 108.33px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.user-block-main-text{
+    color: #223865;
+
+    font-family: stangith;
+    font-size: 70.965px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-users--list{
+    margin-top: 81.34px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 150px;
+}
+
+.user-block-list-bottom{
+    margin-top: 18px;
+}

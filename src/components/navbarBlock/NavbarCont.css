@@ -1,0 +1,62 @@
+.navbar-container{
+    margin-top: 50.75px;
+
+    display: flex;
+    align-items: center;
+    height: 74px;
+    width: 1250px;
+    border-bottom: 0.833px solid #97A1B6;
+}
+
+.nav-logo{
+    color: #223865;
+    font-family: stangith;
+    font-size: 29.167px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-puncts{
+    margin-left: 256.79px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 77px;
+
+    color: #000;
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pun-category{
+    display: flex;
+    align-items: center;
+}
+
+.cat-ic{
+    width: 6.776px;
+    height: 3.388px;
+}
+
+.pun-chil{
+    display: flex;
+    align-items: center;
+    height: 71px;
+}
+
+.pun-chil:hover{
+    margin-top: 2px;
+    border-bottom: 2.5px solid #223865;
+}
+
+.pun-category{ display: flex; }
+
+.search-ic{ margin-left: 295.37px; }
+
+.nav-search{ margin-left: 11.17px; }
+
+.buy-ic{ margin-left: 32.02px; }

@@ -1,0 +1,68 @@
+.pred-bot-container{
+    margin-top: 108.45px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+}
+
+
+.pred-bot-right0cont{
+    margin-left: 190.14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pred-bot-line{
+    color: #223865;
+
+    font-family: stangith;
+    font-size: 70.965px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 0px */
+}
+
+.pred-bot-input{
+    font-size: 27px;
+    font-family: stangith;
+    margin-top: 48.69px;
+    width: 513.352px;
+    height: 42px;
+    border: none;
+    border-bottom: 1px solid #D0D5DE;
+}
+.pred-bot-input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D0D5DE;
+}
+
+.pred-bot-input-plesh{
+    margin-top: 250px;
+    position: absolute;
+    color: rgba(34, 56, 101, 0.54);
+
+    font-family: Sofia Pro;
+    font-size: 16.667px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.pred-bot-input-arrow{
+    margin-top: 280px;
+    margin-left: 495px;
+    position: absolute;
+}
+
+.pred-bot-input-arrow:active{
+    animation-name: arrowPush;
+    animation-duration: 1s;
+
+}
+
+@keyframes arrowPush{
+    to{
+        margin-left: 1000px;
+    }
+}

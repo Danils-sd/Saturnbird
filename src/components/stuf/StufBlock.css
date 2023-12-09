@@ -1,0 +1,70 @@
+.stuf-container{
+    margin-top: 108.33px;
+    width: 1250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stuf-main-text{
+    color: #223865;
+    font-family: stangith;
+    font-size: 70.965px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.stuf-menu{
+    margin-top: 37px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 16.667px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 33px;
+}
+.staf-menu-el{
+    display: flex;
+    justify-content: center;
+    width: 117px;
+    height: 42px;
+}
+
+.staf-menu-el:hover{
+    border-bottom: 2.5px solid #223865;
+}
+
+.staf-catal{
+    margin-top: 94.76px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 28.78px;
+}
+
+.staf-block-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45.59px;
+    width: 226.667px;
+    height: 60px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: 0.833px solid #223865;
+}
+
+.staf-block-btn:hover{
+    border: 1.833px solid #223865;
+}

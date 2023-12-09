@@ -1,0 +1,67 @@
+.staf-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.staf-card-disc{
+    margin-top: 16.67px;
+    color: #000;
+
+    font-family: Sofia Pro;
+    font-size: 16.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.staf-card-price{
+    margin-top: 8px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.staf-card-price-alt{
+    display: none;
+    margin-top: 8px;
+    color: #223865;
+
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.staf-card-hov-menu{
+    /* display: none; */
+    position: absolute;
+    margin-top: 153.7px;
+    margin-left: 64.92px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 17.71px;
+}
+
+.st-ic{
+    display: none;
+    width: 42px;
+}
+
+
+.staf-card-container:hover > .staf-card-hov-menu > .st-ic{
+    display:block;
+}
+
+.staf-card-container:hover > .staf-card-price-alt{
+    display:block;
+}
+
+.staf-card-container:hover > .staf-card-price{
+    display:none;
+}
+

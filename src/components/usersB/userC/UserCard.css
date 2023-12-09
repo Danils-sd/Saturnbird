@@ -1,0 +1,83 @@
+.user-card-container{
+    /* background-image:url("../../../../public/assests/user-back.svg"); */
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes scrLeft{
+    to{
+        margin-right: 300px;
+    }
+}
+@keyframes scrRight{
+    to{
+        margin-left: 300px;
+    }
+}
+
+.user-card-container:hover{
+    background-image:url("../../../../public/assests/user-back.svg");
+    
+}
+.user-card-container:first-child:hover{
+    background-image:url("../../../../public/assests/user-back.svg");
+    animation-name: scrRight;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+.user-card-container:last-child:hover{
+    background-image:url("../../../../public/assests/user-back.svg");
+    animation-name: scrLeft;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    
+}
+
+
+.user-card-zap{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: -405.39px;
+}
+.user-card-ava{
+    margin-top: 6.7px;
+    border: 4.97px solid #fff;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.16));
+}
+.user-card-disc{
+    margin-top: 20.03px;
+    width: 483.913px;
+    color: #223865;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%; /* 20.7px */
+}
+.user-card-name{
+    margin-top: 16px;
+    color: #223865;
+
+    font-family: stangith;
+    font-size: 27.443px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.user-card-inst{
+    margin-top: 7.83px;
+    display: flex;
+    align-items: center;
+    color: #223865;
+
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%; /* 20.7px */
+}
