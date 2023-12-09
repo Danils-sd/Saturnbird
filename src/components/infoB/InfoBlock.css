@@ -1,7 +1,6 @@
 .info-container{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin-top: 108.33px;
     width: 1600px;
     height: 645.163px;
@@ -23,7 +22,7 @@
     font-size: 70.965px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 0px */
+    line-height: 100%;
 }
 
 .info-text-disc{
@@ -35,7 +34,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 138%; /* 20.7px */
+    line-height: 138%;
 }
 
 .info-more-info-block{
@@ -74,7 +73,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 138%; /* 20.7px */
+    line-height: 138%;
 }
 
 .link-text-more-info{
