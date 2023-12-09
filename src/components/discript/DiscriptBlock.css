@@ -32,7 +32,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 138%; /* 20.7px */
+    line-height: 138%;
 }
 
 .disc-right-cont{
@@ -52,7 +52,7 @@
     font-size: 70.965px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 0px */
+    line-height: 100%;
 }
 
 .disc-right-bottom-text{
@@ -64,5 +64,5 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 162%; /* 24.3px */
+    line-height: 162%;
 }
